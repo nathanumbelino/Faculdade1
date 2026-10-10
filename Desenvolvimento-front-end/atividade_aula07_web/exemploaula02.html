@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal da Turma</title>
+    <style>
+        body { margin: 0; background-color: #121212; font-family: Arial, Helvetica, sans-serif; color: #ffffff; }
+        #principal { max-width: 800px; margin: 30px auto; background-color: #1e1e1e; border: 1px solid seagreen; padding: 20px; border-radius: 8px; }
+        #topo_geral { background-color: beige; color: blue; padding: 20px; text-align: center; border-radius: 4px; }
+        nav { background-color: #333; padding: 10px; border-radius: 4px; margin-top: 15px; }
+        nav ul { list-style: none; padding: 0; margin: 0; display: flex; gap: 15px; justify-content: center; }
+        nav a { color: aqua; text-decoration: none; padding: 5px 10px; }
+        nav a:hover { text-decoration: underline; }
+        article { margin-top: 25px; padding: 20px; border: 1px solid white; border-radius: 4px; }
+        #topo_article { border-bottom: 2px solid salmon; margin-bottom: 20px; padding-bottom: 10px; }
+        #topo_article h2 { color: #ffffff; margin-top: 0; margin-bottom: 5px; }
+        article p { color: antiquewhite; font-size: 17px; line-height: 1.6; }
+        .data { display: block; color: #aaaaaa; font-size: 14px; margin-bottom: 15px; }
+    </style>
+</head>
+<body>
+<div id="principal">
+    <header id="topo_geral">
+        <h1>Portal da Turma</h1>
+        <p>Informação, tecnologia e inovação</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Notícias</a></li>
+            <li><a href="#">Galerias</a></li>
+            <li><a href="#">Contatos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <header id="topo_article">
+                <h2>Alunos iniciam projetos de páginas pessoais</h2>
+                <span class="data">26 de setembro de 2026 | 10h23min</span>
+            </header>
+            <p>Os estudantes da disciplina de desenvolvimento front-end iniciaram a criação da página pessoal.</p>
+            <p>O projeto usa título, parágrafo, imagens, links, menus e diferentes elementos semânticos.</p>
+            <p>Na próxima etapa, os estudantes vão realizar o CSS.</p>
+        </article>
+    </main>
+</div>
+</body>
+</html>
