@@ -1,0 +1,26 @@
+* { box-sizing: border-box; }
+body { margin: 0; background-color: rgb(167, 171, 172); color: brown; font-family: 'Times New Roman', Times, serif; }
+/* Organização de página (Grid) */
+.layout_pagina { display: grid; grid-template-areas: "header header" "sidebar main" "footer footer"; grid-template-columns: 220px 1fr; grid-template-rows: auto 1fr auto; min-height: 100vh; }
+/* Cabeçalho */
+.cabecalho { grid-area: header; background-color: grey; color: azure; padding: 20px; text-align: center; }
+.cabecalho h1 { margin: 0 0 10px; }
+.cabecalho p { margin: 0; }
+/* Barra Lateral (Aside) */
+aside { grid-area: sidebar; background-color: firebrick; padding: 20px; }
+aside h2 { color: darkred; }
+aside ul { margin: 0; padding: 0; list-style: none; }
+aside li { margin-bottom: 10px; }
+aside a { display: block; background-color: chartreuse; color: lightyellow; padding: 12px; text-decoration: none; }
+aside a:hover { background-color: darkblue; }
+/* Conteúdo Principal (Main) */
+main { grid-area: main; padding: 20px; }
+.conteudo-principal h2 { margin-top: 0; color: crimson; }
+.gride-principal { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+/* Rodapé (Footer) */
+footer { grid-area: footer; background-color: #555; color: white; text-align: center; padding: 15px; }
+.card { background-color: antiquewhite; padding: 20px; border: 1px solid; border-radius: 10px; box-shadow: 0 red; }
+.card h3 { margin-top: 0; color: darkgreen; }
+.card p { line-height: 1.6; }
+.card a { display: inline-block; background-color: deeppink; color: blueviolet; padding: 10px 15px; border-radius: 5px; text-decoration: none; }
+.card a:hover { background-color: darkkhaki; }
