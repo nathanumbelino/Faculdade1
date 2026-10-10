@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Menu de navegação</title>
+</head>
+<body>
+<header>
+<h1>Portal de Tecnologia</h1>
+<p>Conteúdos sobre desenvolvimento Web</p>
+</header>
+<nav>
+<ul>
+<li><a href="#inicio">Início</a></li>
+<li><a href="#html">HTML</a></li>
+<li><a href="#css">CSS</a></li>
+<li><a href="#contato">Contato</a></li>
+</ul>
+</nav>
+<main>
+<section>
+<h2>Início</h2>
+<p>Bem-vindo ao nosso portal de conteúdos sobre desenvolvimento Front-End para Web.</p>
+<p>Utilize o menu de navegação para conhecer cada uma das seções disponíveis nesta página.</p>
+</section>
+<section>
+<h2>HTML</h2>
+<p>O HTML é responsável pela estrutura e pelo conteúdo das páginas Web.</p>
+<p>Com ele, podemos criar títulos, parágrafos, listas, links, tabelas, formulários e outros elementos.</p>
+</section>
+<section>
+<h2>CSS</h2>
+<p>O CSS é utilizado para definir a aparência e a organização visual dos elementos HTML.</p>
+<p>Podemos modificar cores, fontes, bordas, espaçamentos, alinhamentos e posições.</p>
+</section>
+<section>
+<h2>Contato</h2>
+<p>Entre em contato para enviar dúvidas, sugestões ou comentários sobre os conteúdos.</p>
+<a href="mailto:contato@exemplo.com"> contato@exemplo.com </a>
+</section>
+</main>
+<footer><p>Desenvolvimento Front-End para Web — 2026</p></footer>
+</body>
+</html>
