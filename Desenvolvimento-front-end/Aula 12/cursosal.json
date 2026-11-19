@@ -1,0 +1,17 @@
+[
+  {
+    "nome": "Introdução ao HTML",
+    "descricao": "Aprenda a estruturar páginas com títulos, links, imagens e elementos semânticos.",
+    "cargaHoraria": 20
+  },
+  {
+    "nome": "CSS na Prática",
+    "descricao": "Explore cores, fontes, espaçamentos e layouts responsivos.",
+    "cargaHoraria": 30
+  },
+  {
+    "nome": "Primeiros Passos com JavaScript",
+    "descricao": "Crie interações utilizando variáveis, condições, funções e eventos.",
+    "cargaHoraria": 40
+  }
+]

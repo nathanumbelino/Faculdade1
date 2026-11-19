@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Descubra seu caminho no Front-End</title>
+
+    <!-- Conexão com o CSS externo -->
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <!-- Conexão com o JavaScript externo -->
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <div class="container">
+            <h1>DevPath</h1>
+
+            <button id="btnTema" class="botao-tema">
+                🌙 Tema escuro
+            </button>
+        </div>
+    </header>
+
+    <main class="conteudo">
+
+        <section class="apresentacao">
+            <span class="etiqueta">SUA JORNADA COMEÇA AQUI</span>
+
+            <h2>Descubra seu caminho no Front-End</h2>
+
+            <p>
+                Descubra qual tecnologia combina com seu momento
+                de aprendizado e receba uma orientação para continuar
+                evoluindo no desenvolvimento web.
+            </p>
+        </section>
+
+        <section class="formulario">
+
+            <h3>Vamos começar?</h3>
+
+            <form id="formulario">
+
+                <div class="campo">
+                    <label for="nome">Digite seu nome:</label>
+
+                    <input
+                        type="text"
+                        id="nome"
+                        placeholder="Exemplo: Ana"
+                    >
+                </div>
+
+                <div class="campo">
+                    <label for="area">Escolha sua área de interesse:</label>
+
+                    <select id="area">
+                        <option value="">Selecione uma tecnologia</option>
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="JavaScript">JavaScript</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="botao-principal">
+                    Descobrir meu caminho
+                </button>
+
+            </form>
+
+            <!-- Área onde o JavaScript exibirá o resultado -->
+            <div id="resultado" class="resultado" aria-live="polite">
+                <p>Sua orientação aparecerá aqui!</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <p>Projeto 3 - Painel Interativo com JavaScript</p>
+        <p>Desenvolvido para praticar HTML, CSS e JavaScript.</p>
+    </footer>
+
+</body>
+</html>

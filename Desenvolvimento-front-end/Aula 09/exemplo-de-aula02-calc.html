@@ -1,0 +1,81 @@
+<!doctype html>
+
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Calculadora de operações</title>
+
+    <link rel="stylesheet" href="estilo.css" />
+
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <main>
+      <h1>Calculadora de operações</h1>
+
+      <form id="formulario-calculadora">
+        <div class="campo">
+          <label for="valor1">Valor 1:</label>
+
+          <input type="number" id="valor1" name="valor1" step="any" />
+        </div>
+
+        <div class="campo">
+          <label for="valor2">Valor 2:</label>
+
+          <input type="number" id="valor2" name="valor2" step="any" />
+        </div>
+
+        <p class="titulo-opcoes">Escolha a operação:</p>
+
+        <div class="opcoes">
+          <label for="soma">
+            <input type="radio" id="soma" name="operacao" value="soma" />
+
+            Soma
+          </label>
+
+          <label for="subtracao">
+            <input
+              type="radio"
+              id="subtracao"
+              name="operacao"
+              value="subtracao"
+            />
+
+            Subtração
+          </label>
+
+          <label for="multiplicacao">
+            <input
+              type="radio"
+              id="multiplicacao"
+              name="operacao"
+              value="multiplicacao"
+            />
+
+            Multiplicação
+          </label>
+
+          <label for="divisao">
+            <input type="radio" id="divisao" name="operacao" value="divisao" />
+
+            Divisão
+          </label>
+        </div>
+
+        <div class="resultado">
+          <label for="campo-resultado">Resultado:</label>
+
+          <input type="text" id="campo-resultado" name="resultado" readonly />
+        </div>
+
+        <button type="button" id="botao-calcular">Calcular</button>
+      </form>
+    </main>
+  </body>
+</html>
